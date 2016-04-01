@@ -1,10 +1,10 @@
 package com.team11.phonebill;
 
 public abstract class PlanRates {
-	public static final double basicMontlyRate = 0;
-	public static final double ratePerExcessMinute = 0;
-	public static final int includeMinutes = 0;
-	public static final double additionalLineRate=0;
+	public static final double BASICMONTHLYRATE = 0;
+	public static final double RATEPEREXCESSMINUTE = 0;
+	public static final int INCLUDEMINUTES = 0;
+	public static final double ADDITIONALLINERATE=0;
 
 	public abstract double getBasicMonthlyRate();
 	
