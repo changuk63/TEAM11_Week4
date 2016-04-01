@@ -65,7 +65,7 @@ public class Calculator {
 	public String sumTotalRate(){
 		String total = nf.format(basicMonthlyRate + calcExcessRateByMinute() + calcExcessRateByLines());
 		return "\nBasicMontlyRate : " + basicMonthlyRate + 
-				"\nExcessRateByMinute : " + calcExcessRateByMinute() + 
+				"\nExcessRateByMinute : " + nf.format(calcExcessRateByMinute()) + 
 				"\nExcessRateByLines : " + calcExcessRateByLines() +
 				"\n-> Expected Bill : " + total;
 	}
